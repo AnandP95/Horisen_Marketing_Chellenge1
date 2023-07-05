@@ -1,15 +1,18 @@
+/*This is a universal selector. This property set value for all elements on the page.*/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* set background color to specific grey color.  */
 
 body {
     
     background-color: #d9dcd6;
 }
-
+ /* Set the Header Style here*/
 
 header {
     
@@ -19,17 +22,18 @@ header {
     padding: 20px;
 }
 
-
+/* This element show  us a how to display the title.*/  
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-
+/*  Set text color for specific word (seo). */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* set the list style, text-align and margin here for unordered list.  */
 
 ul {
 
@@ -39,6 +43,7 @@ ul {
  }
 
 
+ /* Display a unordered list as a  inline-block and set the margin value .*/
 
  ul li {
 
@@ -46,7 +51,7 @@ ul {
     margin-right: 5px;
 }
 
-
+/* Set the color for a tag and set the text decoration as  none.  */
 
 a {
 
@@ -56,39 +61,41 @@ a {
     
 }
 
-
+ /* Set the paragraph text size as 16px */
 p {
 
     font-size: 16px;
 }
 
-.hero {
+/* Set the display image  height,width and margin */
+
+.Meeting-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    
 }
+
+/*Set the image as a left-side for service content section paragraph 1 and 3 . */
 
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Set the image as a right -side for service content section paragraph 2. */
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
+/* Set the value for benefits section . set the margin , padding and background-color as a specific blue. */
 .benefits {
     margin-right: 20px;
+    
+    margin-top: -950px;
     padding: 20px;
     clear: both;
     float: right;
@@ -98,35 +105,51 @@ p {
     background-color: #2589bd;
 }
 
+/* Set the margin and color for benefit lead */
+
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+
+/* Set the margin and color for benefit brand */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
+
+/* Set the margin and color for benefit cost */
 
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+
+/* Set the margin and text-align for benefit-lead title. its display text as a center.   */
+
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* Set the margin and text-align for benefit-brand title. its display text as a center.   */
 
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Set the margin and text-align for benefit-cost title. its display text as a center.   */
+
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* Set the image size, margin and  display as a block  for benefit-lead image .*/
 
 .benefit-lead img {
     display: block;
@@ -134,11 +157,17 @@ p {
     max-width: 150px;
 }
 
+
+/* Set the image size, margin and  display as a block  for benefit-brand image .*/
+
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
+
+/* Set the image size, margin and  display as a block  for benefit-cost  image .*/
 
 .benefit-cost img {
     display: block;
@@ -146,59 +175,93 @@ p {
     max-width: 150px;
 }
 
+
+/* Set the margin ,padding , height,font-family for search-engine-optimization content . 
+ set the background-color to blue and text color to  specific white */
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    margin-right:375px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    margin-left: 50px;
+    
 }
+
+
+    
+/* Set the margin ,padding , height,font-family for online-reputation-management content . 
+ set the background-color to blue and text color to  specific white */
 
 .online-reputation-management {
     margin-bottom: 20px;
+    margin-right:375px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    margin-left: 50px;
 }
+
+
+    
+/* Set the margin ,padding , height,font-family for social-media-marketing content . 
+ set the background-color to blue and text color to  specific white */
 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    margin-right:375px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    margin-left: 50px;
 }
+
+/* set the image size for search-engine-optimization */
 
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* set the image size for online-reputation-management */
+
 .online-reputation-management img {
     max-height: 200px;
 }
+
+/* set the image size for social-media-marketing  */
 
 .social-media-marketing img {
     max-height: 200px;
 }
 
+
+/* set the  margin and font-size for search-engine-optimization title. */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* set the  margin and font-size for online-reputation-management  title. */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* set the  margin and font-size for social-media-marketing title. */
+
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* set the padding and font family for footer. */
 
 .footer {
     padding: 30px;
@@ -207,6 +270,8 @@ p {
     text-align: center;
 }
 
+/* set the font-size for footer elements.*/
 .footer h2 {
     font-size: 20px;
+    
 }
